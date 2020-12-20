@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    title Prashant Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | PDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to Prashant's Dance Academy.
+        div.tagline Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.cards
+          h3 Expertism in dance.
+          div.card-box
+              div.card-img
+                  img(src="/static/1.jpg")
+              div.card-content
+                  p This is the best dance aacdemy of the city.
+        div.cards
+          h3 Dancing in your style.
+          div.card-box
+              div.card-img
+                  img(src="/static/2.jpg")
+              div.card-content
+                  p This is the best dance aacdemy of the city.
+        div.cards
+          h3 Expert mentors.
+          div.card-box
+              div.card-img
+                  img(src="/static/3.jpg")
+              div.card-content
+                  p This is the best dance aacdemy of the city.
+
+    section#sponsersSection
+        h2 Our Sponsers
+        div#sponsers
+            img(src="/static/logo1.jpg", alt="sponser image", Class="spImage")
+            img(src="/static/logo2.jpg", alt="sponser image", Class="spImage")
+            img(src="/static/logo3.png", alt="sponser image", Class="spImage")
+            img(src="/static/logo4.jpg", alt="sponser image", Class="spImage")
+
+    footer#footer
+        | Copyright Ⓒ 2020 PrashantDanceAcademy.com | All rights reserved.
+
+    script
+      include ../static/index.js

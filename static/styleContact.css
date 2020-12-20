@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 6px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+
+}
+.myInput{
+    width: 31%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid #db2855;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    font-size: 18px;
+    padding: 9px 25px;
+    border: 2px solid #000000;
+    border-radius: 35px;
+    background-color: #db7f7f;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    min-height: 82vh;
+    font-family: 'Sansita Swashed', cursive;
+}
